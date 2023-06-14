@@ -29,7 +29,7 @@ class Program
             else if (choice == "3");
             {
                 int duration = GetDurationFromUser();
-                ListeningActivity(duration);
+                ListingActivity(duration);
             }
             else if (choice == "4")
             {
@@ -95,7 +95,7 @@ class Program
         {
             Console.Write($"Countdown: {i}");
             Thread.Sleep(1000);
-            Console.SetCursorPosition(Console. CujrsorLeft - $"CountDown: {i}.Length, Console.CursorTop");
+            Console.SetCursorPosition(Console. CursorLeft - $"CountDown: {i}.Length, Console.CursorTop");
         }
         Console.WriteLine();
     }
@@ -168,7 +168,7 @@ class Program
         EndActivity("Reflection Activity", duration);
     }
 
-    static void ListeningActivity(int duration)
+    static void ListingActivity(int duration)
     {
         StartActivity("Listing Activity", "This activity will help you reflect on the good things in your life by having a list as you can in a certain area.", duration);
         Countdown(duration);
