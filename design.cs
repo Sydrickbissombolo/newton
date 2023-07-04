@@ -34,4 +34,4 @@ The Program class acts as the entry point for the application. It contains the M
 
 The derived activity classes inherit the behaviors and attributes from the base activity class. They provide specific implementations for each activity, including prompts, input collection, and displaying the number of items entered.
 
-The base activity class provides common behaviors and attributes shared by all activities. The StartActivity() method displays the starting message, EndActivity() displays the ending message, ShowSpinner() implements the spinner animation, and Countdown() performs the countdown functionality.
+The base activity class provides common behaviors and attributes shared by all activities. The StartActivity() method displays the starting message, EndActivity() displays the ending message, ShowSpinner() implements the spinner animation, and Countdown() performs the countdown functionality.*/
